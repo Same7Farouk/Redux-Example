@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286864827996888EAE001A87 /* Pods_RPS_Game_ReduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8366D59824F65FDAEB513612 /* Pods_RPS_Game_ReduxTests.framework */; };
 		50C24DE222DDC87900ED8C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24DE122DDC87900ED8C88 /* AppDelegate.swift */; };
 		50C24DE422DDC87900ED8C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24DE322DDC87900ED8C88 /* ViewController.swift */; };
 		50C24DE722DDC87900ED8C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C24DE522DDC87900ED8C88 /* Main.storyboard */; };
 		50C24DE922DDC87B00ED8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C24DE822DDC87B00ED8C88 /* Assets.xcassets */; };
 		50C24DEC22DDC87B00ED8C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C24DEA22DDC87B00ED8C88 /* LaunchScreen.storyboard */; };
 		50C24DF722DDC87B00ED8C88 /* RPS_Game_ReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24DF622DDC87B00ED8C88 /* RPS_Game_ReduxTests.swift */; };
+		50C24E0222DDECFC00ED8C88 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24E0122DDECFC00ED8C88 /* State.swift */; };
+		50C24E0422DDF71900ED8C88 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24E0322DDF71900ED8C88 /* Actions.swift */; };
+		50C24E0622DDF99100ED8C88 /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C24E0522DDF99100ED8C88 /* Reducers.swift */; };
+		60C4C0127ACEBC2D32DCC371 /* Pods_RPS_Game_Redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296B4479EFAE6E54AAC844AB /* Pods_RPS_Game_Redux.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268258C2B834434B24F82362 /* Pods-RPS-Game-ReduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPS-Game-ReduxTests.release.xcconfig"; path = "Target Support Files/Pods-RPS-Game-ReduxTests/Pods-RPS-Game-ReduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		296B4479EFAE6E54AAC844AB /* Pods_RPS_Game_Redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPS_Game_Redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C24DDE22DDC87900ED8C88 /* RPS-Game-Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPS-Game-Redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C24DE122DDC87900ED8C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C24DE322DDC87900ED8C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,13 @@
 		50C24DF222DDC87B00ED8C88 /* RPS-Game-ReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPS-Game-ReduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C24DF622DDC87B00ED8C88 /* RPS_Game_ReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_Game_ReduxTests.swift; sourceTree = "<group>"; };
 		50C24DF822DDC87B00ED8C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C24E0122DDECFC00ED8C88 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		50C24E0322DDF71900ED8C88 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		50C24E0522DDF99100ED8C88 /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
+		55EE1178DC91A02D5A45E763 /* Pods-RPS-Game-Redux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPS-Game-Redux.release.xcconfig"; path = "Target Support Files/Pods-RPS-Game-Redux/Pods-RPS-Game-Redux.release.xcconfig"; sourceTree = "<group>"; };
+		8366D59824F65FDAEB513612 /* Pods_RPS_Game_ReduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPS_Game_ReduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A046557C6848B5FC64D4863D /* Pods-RPS-Game-ReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPS-Game-ReduxTests.debug.xcconfig"; path = "Target Support Files/Pods-RPS-Game-ReduxTests/Pods-RPS-Game-ReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F69E7FE8B26B84B1A89E8A8D /* Pods-RPS-Game-Redux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPS-Game-Redux.debug.xcconfig"; path = "Target Support Files/Pods-RPS-Game-Redux/Pods-RPS-Game-Redux.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C4C0127ACEBC2D32DCC371 /* Pods_RPS_Game_Redux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286864827996888EAE001A87 /* Pods_RPS_Game_ReduxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				50C24DE022DDC87900ED8C88 /* RPS-Game-Redux */,
 				50C24DF522DDC87B00ED8C88 /* RPS-Game-ReduxTests */,
 				50C24DDF22DDC87900ED8C88 /* Products */,
+				8E7A220C6E908933FAF559DF /* Pods */,
+				5A7E8C6F3DB7351DC51B6CFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +101,9 @@
 				50C24DE822DDC87B00ED8C88 /* Assets.xcassets */,
 				50C24DEA22DDC87B00ED8C88 /* LaunchScreen.storyboard */,
 				50C24DED22DDC87B00ED8C88 /* Info.plist */,
+				50C24E0122DDECFC00ED8C88 /* State.swift */,
+				50C24E0322DDF71900ED8C88 /* Actions.swift */,
+				50C24E0522DDF99100ED8C88 /* Reducers.swift */,
 			);
 			path = "RPS-Game-Redux";
 			sourceTree = "<group>";
@@ -96,6 +117,26 @@
 			path = "RPS-Game-ReduxTests";
 			sourceTree = "<group>";
 		};
+		5A7E8C6F3DB7351DC51B6CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296B4479EFAE6E54AAC844AB /* Pods_RPS_Game_Redux.framework */,
+				8366D59824F65FDAEB513612 /* Pods_RPS_Game_ReduxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7A220C6E908933FAF559DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F69E7FE8B26B84B1A89E8A8D /* Pods-RPS-Game-Redux.debug.xcconfig */,
+				55EE1178DC91A02D5A45E763 /* Pods-RPS-Game-Redux.release.xcconfig */,
+				A046557C6848B5FC64D4863D /* Pods-RPS-Game-ReduxTests.debug.xcconfig */,
+				268258C2B834434B24F82362 /* Pods-RPS-Game-ReduxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50C24DFB22DDC87B00ED8C88 /* Build configuration list for PBXNativeTarget "RPS-Game-Redux" */;
 			buildPhases = (
+				65AF558EA7B1F14C1D19E49D /* [CP] Check Pods Manifest.lock */,
 				50C24DDA22DDC87900ED8C88 /* Sources */,
 				50C24DDB22DDC87900ED8C88 /* Frameworks */,
 				50C24DDC22DDC87900ED8C88 /* Resources */,
+				6D664438643E4A2A63152B7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50C24DFE22DDC87B00ED8C88 /* Build configuration list for PBXNativeTarget "RPS-Game-ReduxTests" */;
 			buildPhases = (
+				153EFBAF7F9EE9C711BF4D29 /* [CP] Check Pods Manifest.lock */,
 				50C24DEE22DDC87B00ED8C88 /* Sources */,
 				50C24DEF22DDC87B00ED8C88 /* Frameworks */,
 				50C24DF022DDC87B00ED8C88 /* Resources */,
@@ -192,13 +236,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		153EFBAF7F9EE9C711BF4D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPS-Game-ReduxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AF558EA7B1F14C1D19E49D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPS-Game-Redux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D664438643E4A2A63152B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPS-Game-Redux/Pods-RPS-Game-Redux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPS-Game-Redux/Pods-RPS-Game-Redux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RPS-Game-Redux/Pods-RPS-Game-Redux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50C24DDA22DDC87900ED8C88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50C24DE422DDC87900ED8C88 /* ViewController.swift in Sources */,
+				50C24E0622DDF99100ED8C88 /* Reducers.swift in Sources */,
+				50C24E0422DDF71900ED8C88 /* Actions.swift in Sources */,
 				50C24DE222DDC87900ED8C88 /* AppDelegate.swift in Sources */,
+				50C24E0222DDECFC00ED8C88 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +469,7 @@
 		};
 		50C24DFC22DDC87B00ED8C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69E7FE8B26B84B1A89E8A8D /* Pods-RPS-Game-Redux.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +487,7 @@
 		};
 		50C24DFD22DDC87B00ED8C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EE1178DC91A02D5A45E763 /* Pods-RPS-Game-Redux.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +505,7 @@
 		};
 		50C24DFF22DDC87B00ED8C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A046557C6848B5FC64D4863D /* Pods-RPS-Game-ReduxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +526,7 @@
 		};
 		50C24E0022DDC87B00ED8C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268258C2B834434B24F82362 /* Pods-RPS-Game-ReduxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
