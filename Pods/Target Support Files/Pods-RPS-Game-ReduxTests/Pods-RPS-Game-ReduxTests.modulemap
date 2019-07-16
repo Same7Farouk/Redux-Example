@@ -1,6 +1,0 @@
-framework module Pods_RPS_Game_ReduxTests {
-  umbrella header "Pods-RPS-Game-ReduxTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
