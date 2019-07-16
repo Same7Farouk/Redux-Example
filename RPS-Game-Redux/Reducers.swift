@@ -15,6 +15,10 @@ func appReducer(action: Action, state: AppState?) -> AppState {
     // creates a new state if one does not already exist
     var state = state ?? AppState()
     
+    if state.result == .draw {
+        state.result = nil
+    }
+    
     switch action {
     case let chooseWeaponAction as ChooseWeaponAction:
         
@@ -84,9 +88,15 @@ func appReducer(action: Action, state: AppState?) -> AppState {
         
     default:
         state = AppState()
-        break
     }
     
+    if state.result == .draw {
+        state.player1Play.weapon = nil
+        state.player2Play.weapon = nil
+        state.player1Play.chosen = false
+        state.player2Play.chosen = false
+        state.turn = Turn(player: .one)
+    }
     // return the new state
     return state
 }
